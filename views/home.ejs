@@ -1,0 +1,96 @@
+<%- include("partials/header"); -%>
+
+    <section id="top-button">
+        <a href="#">
+            <button class="button-arrow"><i class="fa-solid fa-arrow-up fa-lg"></i></button>
+        </a>
+    </section>
+
+    <section id="intro" class="section-p1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="intro-content col-lg-6">
+                    <h4>Being curious</h4>
+                    <h2>Get Latest Update About the world</h2>
+                    <p>Come with us in this journey of information</p>
+                    <form action="/category/general">
+                        <button class="circular-button">Explore News</button>
+                    </form>
+                </div>
+                <div class="intro-image col-lg-6">
+                    <img class="sun-image" src="/images/4Cb2.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="category" class="section-p1">
+        <h2>Categories</h2>
+        <p>News covering every aspect of your life</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-lg-4 col-md-6 col-sm-12 category-card card1">
+                    <a href="/category/technology" class="fill-div"></a>
+                    <h4>Technology</h4>
+                </div>
+                <div class="category-card card2 col col-lg-4 col-md-6 col-sm-12">
+                    <a href="/category/science" class="fill-div"></a>
+                    <h4>Science</h4>
+                </div>
+                <div class="category-card card3 col col-lg-4 col-md-6 col-sm-12">
+                    <a href="/category/business" class="fill-div"></a>
+                    <h4>Business</h4>
+                </div>
+                <div class="category-card card4 col col-lg-4 col-md-6 col-sm-12">
+                    <a href="/category/entertainment" class="fill-div"></a>
+                    <h4>Entertainment</h4>
+                </div>
+                <div class="category-card card5 col col-lg-4 col-md-6 col-sm-12">
+                    <a href="/category/health" class="fill-div"></a>
+                    <h4>Health</h4>
+                </div>
+                <div class="category-card card6 col col-lg-4 col-md-6 col-sm-12">
+                    <a href="/category/sports" class="fill-div"></a>
+                    <h4>Sports</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-p1">
+        <h2>About Me</h2>
+        <div class="about-des">
+            <img src="/images/about-image.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit
+                anim id est laborum.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section-p1">
+        <h2>Contacts</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="contact-icon col col-lg-12">
+                    <a href=""><i class="fa-brands fa-instagram"><span>Instagram</span></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"><span>Twitter</span></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"><span>Facebook</span></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"><span>Pinterest</span></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"><span>Youtube</span></i></a>
+                </div>
+                <div id="map" class="col col-lg-12">
+                    <iframe referrerpolicy="no-referrer-when-downgrade"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCODR4F-EmAv-w7f5CXD93LtvQm4me3JJ0&q=D+Y+Patil+Sports+Stadium,Navi+Mumbai+India"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include("partials/footer"); -%>

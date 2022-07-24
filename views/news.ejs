@@ -1,0 +1,62 @@
+<%- include("partials/header"); -%>
+
+
+    <section id="top-button">
+        <a href="#">
+            <button class="button-arrow"><i class="fa-solid fa-arrow-up fa-lg"></i></button>
+        </a>
+    </section>
+
+    <section id="categories" class="section-p1">
+        <div class="categories-bar">
+            <ul class="categories-list">
+                <li><a href="/"><i class="fa-solid fa-house"></i></a></li>
+                <li><a class="category-item <%=barStatus.general.class%>" href="/category/general">General</a></li>
+                <li><a class="category-item <%=barStatus.business.class%>" href="/category/business">Business</a></li>
+                <li><a class="category-item <%=barStatus.entertainment.class%>"
+                        href="/category/entertainment">Entertainment</a></li>
+                <li><a class="category-item <%=barStatus.health.class%>" href="/category/health">Health</a></li>
+                <li><a class="category-item <%=barStatus.science.class%>" href="/category/science">Science</a></li>
+                <li><a class="category-item <%=barStatus.sports.class%>" href="/category/sports">Sports</a></li>
+                <li><a class="category-item <%=barStatus.technology.class%>" href="/category/technology">Technology</a>
+                <li><a class="category-item" href="/favourites">Favourites</a></li>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="news" class="section-p1">
+        <div class="container-fluid">
+            <div class="row">
+                <% newsItem.forEach((ele)=> { %>
+                    <% const urlImage=ele.urlToImage %>
+                        <% if(urlImage===null) { %>
+                            <div class="col col-lg-4 col-md-6 col-sm-12 news-card"
+                                style="background-image: linear-gradient(to bottom, transparent 0%, #0b0b0b 90%), url('/public/images/news_image.png');">
+                                <% } else{ %>
+                                    <div class="col col-lg-4 col-md-6 col-sm-12 news-card"
+                                        style="background-image: linear-gradient(to bottom, transparent 0%, #0b0b0b 90%), url('<%=urlImage%>');">
+                                        <% } %>
+                                            <a href=<%=ele.url %> target="_blank" rel="noopener noreferrer"
+                                                class="fill-div"></a>
+                                            <div class="news-card-content">
+                                                <div class="news-header">
+                                                    <h6>
+                                                        <%= ele.source.name %>
+                                                    </h6>
+                                                    <% const obj=JSON.stringify(ele) %>
+                                                        <form action="/favourites" method="post">
+                                                            <button type="submit" class="add-fav-btn"
+                                                                name="favouriteNews" value="<%=obj%>"><i
+                                                                    class="fa-regular fa-star fa-lg"></i></button>
+                                                        </form>
+                                                </div>
+                                                <h4>
+                                                    <%= ele.title %>
+                                                </h4>
+                                            </div>
+                                    </div>
+                                    <% }) %>
+                            </div>
+            </div>
+    </section>
