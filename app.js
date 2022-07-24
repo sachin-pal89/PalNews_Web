@@ -205,7 +205,7 @@ let options = {
     language: 'en',
     country: 'in',
     category: 'general',
-    pageSize: 50
+    pageSize: 51
 }
 
 // get request on home page of the app
