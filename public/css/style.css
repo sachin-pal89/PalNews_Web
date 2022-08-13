@@ -28,31 +28,31 @@ body {
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 64px;
+    font-size: 3.125rem;
+    line-height: 4rem;
     color: white;
 }
 
 h2 {
-    font-size: 46px;
-    line-height: 54px;
+    font-size: 2.875rem;
+    line-height: 3.375rem;
     color: white;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
 }
 
 h6 {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #465b52;
-    margin: 15px 0 20px 0;
+    margin: 0.938rem 0 1.25rem 0;
 }
 
 .section-p1 {
@@ -60,18 +60,18 @@ p {
 }
 
 .section-m1 {
-    margin: 40px 0;
+    margin: 2.5rem 0;
 }
 
 .circular-button {
     width: 100%;
-    height: 40px;
-    font-size: 17px;
+    height: 2.5rem;
+    font-size: 1.063rem;
     font-weight: 500;
-    padding: 5px 20px;
+    padding: 0.313rem 1.25rem;
     background-color: white;
     color: #040303;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     outline: none;
 }
 
@@ -95,8 +95,8 @@ p {
 }
 
 #top-button .button-arrow {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 100%;
 }
 
@@ -122,32 +122,32 @@ p {
 }
 
 #navbar .navbar-content h2 {
-    margin: 8px;
+    margin: 0.5rem;
     color: white;
     margin: 0;
-    padding: 0 10px;
-    font-size: 30px;
+    padding: 0 0.625rem;
+    font-size: 1.875rem;
     font-weight: 700;
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 #navbar .navbar-content .navbar-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3px 16px 0;
+    margin: 0.188rem 1rem 0;
     padding: 0;
     position: absolute;
-    left: 160px;
+    left: 10rem;
 }
 
 #navbar .navbar-content .navbar-menu li {
     list-style: none;
-    padding: 3px 10px 0;
+    padding: 0.188rem 0.625rem 0;
 }
 
 #navbar .navbar-content .navbar-menu li a {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 2;
     font-weight: 600;
     text-decoration: none;
@@ -164,32 +164,32 @@ p {
 
 #navbar .navbar-content .navbar-search-login .search-box {
     background-color: white;
-    border-radius: 120px;
-    border: 1px solid transparent;
+    border-radius: 7.5rem;
+    border: 0.063rem solid transparent;
     width: 100%;
-    height: 39px;
+    height: 2.438rem;
     border-width: 0;
     outline: none;
-    margin: 10px 10px 10px 0px;
-    padding: 0 34px 0 20px;
+    margin: 0.625rem 0.625rem 0.625rem 0px;
+    padding: 0 2.125rem 0 1.25rem;
     text-align: left;
 }
 
 #navbar .navbar-content .navbar-search-login .search-icon {
     width: 10%;
-    height: 39px;
+    height: 2.438rem;
     color: black;
     background-color: transparent;
     position: absolute;
-    padding: 6px 10px;
-    top: 10px;
-    left: 224px;
+    padding: 0.375rem 0.625rem;
+    top: 0.625rem;
+    left: 14rem;
     border: none;
 }
 
 #navbar .navbar-content .navbar-search-login .circular-button:hover {
     cursor: pointer;
-    box-shadow: 2px 2px rgba(255, 255, 255, 1);
+    box-shadow: 0.125rem 0.125rem rgba(255, 255, 255, 1);
 }
 
 /* Intro Section  */
@@ -198,52 +198,52 @@ p {
     background-color: #040303;
     width: 100%;
     height: 88vh;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 #intro .container-fluid .row .intro-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 120px;
-    padding-right: 60px;
+    margin-top: 7.5rem;
+    padding-right: 3.75rem;
 }
 
 #intro .container-fluid .intro-content h4 {
     color: #B3541E;
-    font-size: 28px;
-    padding-bottom: 10px;
+    font-size: 1.75rem;
+    padding-bottom: 0.625rem;
 }
 
 #intro .container-fluid .intro-content h2 {
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 630;
 }
 
 #intro .container-fluid .intro-content p {
     color: white;
-    font-size: 23px;
+    font-size: 1.438rem;
 }
 
 #intro .container-fluid .intro-content .circular-button {
     width: 30%;
-    height: 45px;
-    padding: 0 10px;
-    font-size: 18px;
+    height: 2.813rem;
+    padding: 0 0.625rem;
+    font-size: 1.125rem;
     font-weight: 600;
 }
 
 #intro .container-fluid .intro-content .circular-button:hover {
     cursor: pointer;
-    box-shadow: 3px 3px rgba(255, 255, 255, 1);
+    box-shadow: 0.188rem 0.188rem rgba(255, 255, 255, 1);
 }
 
 #intro .intro-image .sun-image {
     width: 90%;
     height: 75vh;
-    padding: 10px;
-    margin-left: 72px
+    padding: 0.625rem;
+    margin-left: 4.5rem;
 }
 
 /* Category Section  */
@@ -251,53 +251,53 @@ p {
 #category {
     text-align: center;
     background-color: #040303;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 #category h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 750;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     color: white;
 }
 
 #category p {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-size: 600;
     color: white;
 }
 
 #category .container-fluid {
-    margin-top: 60px;
+    margin-top: 3.75rem;
     width: 100%;
 }
 
 #category .container-fluid .row .category-card{
-    height: 400px;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px 10px;
+    height: 25rem;
+    border: 0.063rem solid black;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    margin: 1.25rem 0.625rem;
     position: relative;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.0);
+    box-shadow: 0.375rem 0.375rem 0.25rem rgba(0, 0, 0, 0.0);
 
 }
 
 #category .container-fluid .row .category-card:hover {
     cursor: pointer;
-    border: 1px solid white;
-    box-shadow: 5px 6px 4px rgba(255, 255, 255, 0.6);
+    border: 0.063rem solid white;
+    box-shadow: 0.313rem 0.375rem 0.25rem rgba(255, 255, 255, 0.6);
 }
 
 #category .container-fluid .row .category-card h4 {
     color: white;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 700;
-    margin-top: 280px;
+    margin-top: 17.5rem;
 }
 
 #category .container-fluid .card1 {
@@ -335,9 +335,9 @@ p {
 
 #about h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 750;
-    margin-top: 90px;
+    margin-top: 5.625rem;
     color: white;
 }
 
@@ -347,20 +347,20 @@ p {
     align-items: center;
     justify-content: flex-start;
     padding: 3% 10%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 #about .about-des img {
     width: 15%;
     border-radius: 100%;
-    border: 1px solid black;
+    border: 0.063rem solid black;
 }
 
 #about .about-des p {
     width: 70%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     line-height: 2;
     color: white;
@@ -375,15 +375,15 @@ p {
 
 #contact #map iframe {
     width: 100%;
-    height: 380px;
+    height: 23.75rem;
     border: none;
 }
 
 #contact h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: 750;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     color: white;
 }
 
@@ -396,18 +396,18 @@ p {
 
 #contact .contact-icon a {
     color: white;
-    margin: 0 10px;
+    margin: 0 0.625rem;
 }
 
 #contact .contact-icon a i {
-    font-size: 25px;
+    font-size: 1.563rem;
 }
 
 #contact .contact-icon a span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 550;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 /* Footer Section  */
@@ -416,7 +416,7 @@ p {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 5px;
+    padding: 0.313rem;
     background-color: #040303;
 }
 
@@ -449,15 +449,15 @@ p {
 }
 
 #categories .categories-bar .categories-list .search-category{
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 #categories .categories-bar .categories-list li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     color: white;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 #categories .categories-bar .categories-list li i.search-category.active::after,
@@ -465,10 +465,10 @@ p {
     content: "";
     background-color: white;
     width: 50%;
-    height: 2px;
-    border-radius: 2px;
+    height: 0.125rem;
+    border-radius: 0.125rem;
     position: absolute;
-    bottom: -3px;
+    bottom: -0.188rem;
     right: 25%;
     cursor: pointer;
 }
@@ -478,10 +478,10 @@ p {
     content: "";
     background-color: white;
     width: 50%;
-    height: 2px;
-    border-radius: 2px;
+    height: 0.125rem;
+    border-radius: 0.125rem;
     position: absolute;
-    bottom: -5px;
+    bottom: -0.313rem;
     right: 25%;
 }
 
@@ -489,7 +489,7 @@ p {
 
 #loginFirst {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 9.375rem;
     font-weight: 600;
     text-align: center;
 }
@@ -502,16 +502,16 @@ p {
 
 #news .container-fluid .row .news-card {
 
-    height: 300px;
+    height: 18.75rem;
     text-align: left;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-position: top;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    filter: drop-shadow(6px 6px 3px rgb(29, 27, 27));
-    padding: 10px;
-    margin: 20px auto;
+    filter: drop-shadow(0.375rem 0.375rem 0.188rem rgb(29, 27, 27));
+    padding: 0.625rem;
+    margin: 1.25rem auto;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -520,13 +520,13 @@ p {
 }
 
 #news .container-fluid .row .news-card:hover {
-    filter: drop-shadow(8px 8px 4px rgb(56, 53, 53));
+    filter: drop-shadow(0.5rem 0.5rem 0.25rem rgb(56, 53, 53));
 }
 
 #news .container-fluid .row .news-card .news-card-content .news-header {
     display: flex;
     justify-content: space-between;
-    padding: 5px 0;
+    padding: 0.313rem 0;
     position: relative;
 }
 
@@ -537,19 +537,19 @@ p {
 }
 
 #news .container-fluid .row .news-card .news-card-content h6 {
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 400;
     width: 80%;
-    margin-top: 4px;
+    margin-top: 0.25rem;
 }
 
 #news .container-fluid .row .news-card .news-card-content h4 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 #news .container-fluid .row form {
-    margin: 0 10px 10px 0;
+    margin: 0 0.625rem 0.625rem 0;
 }
 
 #news .container-fluid .row .add-fav-btn {
