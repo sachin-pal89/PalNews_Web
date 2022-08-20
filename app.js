@@ -138,7 +138,7 @@ passport.deserializeUser(function (id, done) {
 passport.use(new GoogleStrategy({
     clientID: process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    callbackURL: "https://calm-mesa-84299.herokuapp.com/auth/google/home",
+    callbackURL: "https://palnews.herokuapp.com/auth/google/home",
     userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo"
 },
     function (accessToken, refreshToken, profile, cb) {
@@ -157,7 +157,7 @@ passport.use(new GoogleStrategy({
 passport.use(new FacebookStrategy({
     clientID: process.env.FACEBOOK_APP_ID,
     clientSecret: process.env.FACEBOOK_APP_SECRET,
-    callbackURL: "https://calm-mesa-84299.herokuapp.com/auth/facebook/home",
+    callbackURL: "https://palnews.herokuapp.com/auth/facebook/home",
     profileFields: ['id', 'displayName', 'photos', 'email']
 },
     function (accessToken, refreshToken, profile, cb) {
@@ -181,7 +181,7 @@ passport.use(
             consumerSecret: process.env.TWITTER_CONSUMER_SECRET,
             oauth_token_key: process.env.TWITTER_ACCESS_TOKEN,
             oauth_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
-            callbackURL: "https://calm-mesa-84299.herokuapp.com/auth/twitter/home",
+            callbackURL: "https://palnews.herokuapp.com/auth/twitter/home",
             includeEmail: true
         },
         function (accessToken, refreshToken, profile, done) {
